@@ -1,0 +1,3 @@
+package: go-error-handling_pkg-errors
+import: 
+  - package: github.com/pkg/errors
