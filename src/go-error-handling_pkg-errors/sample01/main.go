@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if err := fuga.DoExciting(false); err != nil {
-		fmt.Printf("ERROR: %+v\n", err)
+		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
 

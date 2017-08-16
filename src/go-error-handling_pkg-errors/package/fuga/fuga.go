@@ -12,10 +12,10 @@ func DoExciting(b bool) error {
 		switch err.(type) {
 
 		case *hoge.HogeSomethingError:
-			return errors.New("handling hoge.HogeSomethingError at fuga")
+			return errors.New("error1 at fuga")
 
 		case *hoge.HogeAnythingError:
-			return errors.New("handling hoge.HogeAnythingError at fuga")
+			return errors.New("error2 at fuga")
 
 		}
 	}
